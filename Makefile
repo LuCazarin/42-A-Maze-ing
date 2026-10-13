@@ -86,6 +86,8 @@ install: venv
 
 check: lint
 
+build: package
+
 lint: install venv
 	@printf "$(BLUE)→ Running Flake8...$(RESET)\n"
 	$(PYTHON_VENV) -m flake8 .

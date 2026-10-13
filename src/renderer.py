@@ -19,7 +19,7 @@ class TerminalRenderer:
         self.color_index: int = 0
         self.palettes: list[str] = [
             "\033[32m",  # Green (0)
-            "\033[38;5;208m",  # Yellow (1)
+            "\033[38;5;208m",  # Orange (1)
             "\033[36m",  # Cyan (2)
             "\033[35m",  # Magenta (3)
         ]
